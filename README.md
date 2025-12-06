@@ -77,10 +77,10 @@ python3 ppa_attack_simulator.py
 
 ##  Why It’s Unique
 
- ✔️ Focuses on **contextual risk** and **lateral movement**, not just CVEs  
- ✔️ Uses **graph-based modeling** for relationships like users → processes → ports  
- ✔️ Simulates **real-world attacker strategies**  
- ✔️ Helps you **visualize and fix interconnected security weaknesses**
+  Focuses on **contextual risk** and **lateral movement**, not just CVEs  
+  Uses **graph-based modeling** for relationships like users → processes → ports  
+  Simulates **real-world attacker strategies**  
+  Helps you **visualize and fix interconnected security weaknesses**
  
 
 ##  Future Add-ons (Stretch Goals)
