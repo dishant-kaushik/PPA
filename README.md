@@ -1,4 +1,4 @@
- Predictive Posture Analyst (PPA)
+##  **Predictive Posture Analyst (PPA)**
 
 > **A proactive cybersecurity tool** that simulates attacker movement and maps out risk paths across your system using graph theory and real-world config data.
 
