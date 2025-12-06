@@ -1,10 +1,10 @@
-# 🔐 Predictive Posture Analyst (PPA)
+ Predictive Posture Analyst (PPA)
 
 > **A proactive cybersecurity tool** that simulates attacker movement and maps out risk paths across your system using graph theory and real-world config data.
 
 
 
-## 🚀 Overview
+## Overview
 
 **Predictive Posture Analyst (PPA)** is a security analysis toolkit that collects system-level data (users, ports, services, configs) and uses Python & graph theory to:
 
@@ -18,7 +18,7 @@
 
 
 
-## 📁 Project Structure
+## Project Structure
 ```YAML
 ppa-project/
 ├── bash_scripts/ # Bash scripts for data collection
@@ -33,19 +33,19 @@ ppa-project/
 ```
 
 
-## ⚙️ How It Works
+## How It Works
 
-1. 🐚 **Bash** scripts gather system-level info (users, configs, open ports, sudo rules, etc.)
-2. 🐍 **Python** parses and normalizes the raw data into structured JSON
-3. 🕸️ **Graph** is built using `networkx` to model access and control relationships
-4. 🧠 **Attack Simulation** walks the graph from a breach point to root/critical assets
-5. 📊 **Risk Scores** are calculated and reports generated
+1.  **Bash** scripts gather system-level info (users, configs, open ports, sudo rules, etc.)
+2.  **Python** parses and normalizes the raw data into structured JSON
+3.  **Graph** is built using `networkx` to model access and control relationships
+4.  **Attack Simulation** walks the graph from a breach point to root/critical assets
+5.  **Risk Scores** are calculated and reports generated
 
 
 
-## 🖥️ Run the Project
+##  Run the Project
 
-### ✅ Prerequisites
+### Prerequisites
 
 - Linux-based system
 - Python 3.x
@@ -56,7 +56,7 @@ ppa-project/
 pip install -r requirements.txt
 ```
 
-## 🔄 Step-by-Step Execution
+##  Step-by-Step Execution
 ```bash
 # 1. Run Bash collection scripts
 bash bash_scripts/run_all.sh
@@ -70,24 +70,26 @@ python3 ppa_graph.py
 # 4. Simulate attacker movement (you’ll be prompted for a starting node)
 python3 ppa_attack_simulator.py
 ```
-## 📤 Output
+##  Output
 
 - `attack_paths_report.txt` – shows all reachable targets from a breach point with risk scores  
 - `normalized_output.json` – structured system configuration data
 
-## 🧠 Why It’s Unique
+##  Why It’s Unique
 
  ✔️ Focuses on **contextual risk** and **lateral movement**, not just CVEs  
  ✔️ Uses **graph-based modeling** for relationships like users → processes → ports  
  ✔️ Simulates **real-world attacker strategies**  
  ✔️ Helps you **visualize and fix interconnected security weaknesses**
+ 
 
+##  Future Add-ons (Stretch Goals)
 
-
-## 💡 Future Add-ons (Stretch Goals)
-
- 🌐 **Web UI (Django)** for interactive visualization  
- 📈 **Heatmap or risk dashboard** (Plotly/D3.js)  
- 🧠 **MITRE ATT&CK** Technique Mapping  
- 🔍 **CVE/Threat Intel integration**
+  **Web UI (Django)** for interactive visualization  
+  **Heatmap or risk dashboard** (Plotly/D3.js)  
+  **MITRE ATT&CK** Technique Mapping  
+  **CVE/Threat Intel integration**
+  
+## Contact
+Email: dishantkaushik446@gmail.com
 
